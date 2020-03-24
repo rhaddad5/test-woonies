@@ -23,6 +23,28 @@
   padding-left: 150px;
 }
 
+.banner-form {
+  margin-top: 15px;
+}
+
 #search-button {
   background-color: $light-pink;
+  color: $dark-blue;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  padding: 10px;
+}
+
+#search-input {
+  font-size: 16px;
+  border-radius: 8px 0 0 8px;
+  border: none;
+  width: 570px;
+}
+
+.input-and-image {
+  background-color: white;
+  border-radius: 8px 0 0 8px;
+  padding: 10px;
 }
