@@ -1,3 +1,20 @@
 .container-woonies {
   margin: 0 auto;
 }
+
+#mini-banner {
+  background-color: $dark-blue;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  text-align: center;
+  h2 {
+    font-size: 32px;
+    color: white;
+  }
+}
+
+#birds {
+  position: absolute;
+  bottom: 124px;
+  left: 160px;
+}
