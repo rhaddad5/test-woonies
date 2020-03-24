@@ -29,6 +29,7 @@
   p {
     text-align: center;
     font-size: 17px;
+    opacity: 0.8;
   }
 }
 
@@ -49,11 +50,53 @@
   h3, p {
     font-weight: bold;
     text-align: right;
+    opacity: 1;
   }
 }
 
 .pro {
+  margin-right: 150px;
   h3, p {
     text-align: left;
+    opacity: 1;
+  }
+}
+
+#magazine {
+  margin-left: 200px;
+}
+
+.home-content-search {
+  display: flex;
+}
+
+.home-content-button {
+  background-color: $dark-blue;
+  color: white;
+  font-size: 15px;
+  border: none;
+  padding: 10px;
+}
+
+#inscription-button {
+  border-radius: 8px;
+  width: 150px;
+  margin-left: 25px;
+}
+
+#email-button {
+  border-radius: 0 8px 8px 0;
+  width: 140px;
+}
+
+#email-input {
+  font-size: 16px;
+  border-radius: 8px 0 0 8px;
+  border: none;
+  padding: 10px;
+  width: 475px;
+  margin-left: 200px;
+  &::placeholder {
+    color: $dark-blue;
   }
 }

@@ -71,7 +71,7 @@
     <h1>Disponible en Île-de-France</h1>
     <p>et très prochainement sur la France entière.</p>
     <div class="home-content-details">
-      <%= image_tag "magazine.png", width: 200 %>
+      <%= image_tag "magazine.png", id: "magazine", width: 200 %>
       <div class="parents">
         <h3>Parents</h3>
         <p>Vous souhaitez tout savoir sur les modes de garde ? Recevez gratuitement notre guide complet.</p>
@@ -80,6 +80,13 @@
         <h3>Professionnels</h3>
         <p>Vous pouvez créer votre profil dès maintenant (même si vous êtes hors Île-de-France) et notre équipe vous contactera très rapidement.</p>
       </div>
+    </div>
+    <div class="home-content-search">
+      <form action="" class="form-inline email-form">
+        <input type="text" id="email-input" placeholder="Adresse e-mail">
+        <input type="submit" class="home-content-button" id="email-button" value="Valider ->">
+      </form>
+      <button class="home-content-button" id="inscription-button">M'inscrire -></button>
     </div>
   </div>
 </div>
