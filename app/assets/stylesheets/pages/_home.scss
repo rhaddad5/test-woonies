@@ -18,3 +18,42 @@
   bottom: 124px;
   left: 160px;
 }
+
+.home-content {
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+  }
+  p {
+    text-align: center;
+    font-size: 17px;
+  }
+}
+
+.home-content-details {
+  display: grid;
+  grid-template-columns: 1fr 2fr 3fr;
+  grid-gap: 20px;
+  h3 {
+    font-weight: bold;
+    font-size: 21px;
+  }
+  p {
+    font-size: 16px;
+  }
+}
+
+.parents {
+  h3, p {
+    font-weight: bold;
+    text-align: right;
+  }
+}
+
+.pro {
+  h3, p {
+    text-align: left;
+  }
+}
