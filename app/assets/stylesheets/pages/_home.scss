@@ -98,6 +98,7 @@
   padding: 10px;
   width: 420px;
   margin-left: 180px;
+  border: 1px solid rgba(24, 39, 58, 0.12);
   &::placeholder {
     color: $dark-blue;
   }
@@ -137,4 +138,40 @@
   position: absolute;
   bottom: -170px;
   right: 0;
+}
+
+.carousel {
+  margin-top: 40px;
+  background-color: $light-grey;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  box-shadow: 0px 8px 16px rgba(24, 39, 58, 0.150447);
+}
+
+.carousel-control-next-icon:after {
+  content: '>';
+  background: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  color: $dark-blue;
+  vertical-align: middle;
+  position: absolute;
+  top: 25px;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  background: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  color: $dark-blue;
+  vertical-align: middle;
+  margin: 0 auto;
+  position: absolute;
+  top: 25px;
 }
