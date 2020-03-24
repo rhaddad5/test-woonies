@@ -1,12 +1,20 @@
-.navbar-lewagon {
+.navbar-woonies {
+  display: flex;
   justify-content: space-between;
-  background: white;
+  margin: 0px 15px;
+  background-color: $light-blue;
 }
 
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
+#logo-woonies {
+  margin-top: 20px;
 }
-
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
+#pro-access {
+  color: $dark-blue;
+  text-decoration: none;
+  border: 1px solid $dark-blue;
+  border-radius: 8px;
+  padding: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
 }
