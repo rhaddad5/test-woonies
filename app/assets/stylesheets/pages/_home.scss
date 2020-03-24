@@ -35,8 +35,8 @@
 
 .home-content-details {
   display: grid;
-  grid-template-columns: 1fr 2fr 3fr;
-  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr 2fr 3fr 1fr;
+  grid-gap: 10px;
   h3 {
     font-weight: bold;
     font-size: 21px;
@@ -47,6 +47,7 @@
 }
 
 .parents {
+  grid-column: 3;
   h3, p {
     font-weight: bold;
     text-align: right;
@@ -55,7 +56,8 @@
 }
 
 .pro {
-  margin-right: 150px;
+  grid-column: 4;
+  margin-left: 20px;
   h3, p {
     text-align: left;
     opacity: 1;
@@ -63,7 +65,7 @@
 }
 
 #magazine {
-  margin-left: 200px;
+  grid-column: 2;
 }
 
 .home-content-search {
